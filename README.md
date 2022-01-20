@@ -33,3 +33,30 @@ team performance that would be of interest to team executives.
 In a terminal, navigate to the game_files folder that houses the main.py file
 
 Run the command 'python main.py' from this directory and the program will execute
+
+Lineup outputs are printed and image outputs are saved to the results_visuals directory
+
+Certain functions are run as individual scripts and are not executed each run in the main.py file. 
+Independent files are:
+ - player_eval_example.py
+ - injury_report_example.py
+ - redsox_comps.py
+ - wins.py
+
+
+## Outputs
+Outputs include 3 lineups (positional, top9, and random9), lineup visuals, and player comparison visuals. 
+The lineups are printed to the console. All generated charts are saved to results_visuals.
+
+
+## Sources:
+1. 2021 Boston Red Sox Schedule. Baseball Reference. (n.d.). Retrieved December 6, 2021, from https://www.baseball-reference.com/teams/BOS/2021-schedule-scores.shtml. 
+2. ESPN Internet Ventures. (2021, May 30). Chicago Cubs' David Bote suffered dislocated shoulder on slide vs. Cincinnati Reds. ESPN. Retrieved December 3, 2021, from https://www.espn.com/mlb/story/_/id/31538067/chicago-cubs-david-bote-suffered-dislocated-shoulder-slide-vs-cincinnati-reds. 
+3. How to zip two lists of lists in python? GeeksforGeeks. (2020, December 11). Retrieved December 6, 2021, from https://www.geeksforgeeks.org/python-zipping-two-lists-of-lists/. 
+4. MLB current rosters. MLB Current Rosters - The Baseball Cube. (n.d.). Retrieved December 3, 2021, from http://www.thebaseballcube.com/mlb/rosters/. 
+5. Python: Merging Two dictionaries. GeeksforGeeks. (2020, November 16). Retrieved December 3, 2021, from https://www.geeksforgeeks.org/python-merging-two-dictionaries/. 
+6. Splits leaderboards as LHP. FanGraphs. (n.d.). Retrieved December 3, 2021, from https://www.fangraphs.com/leaders/splits-leaderboards?splitArr=97&splitArrPitch=&position=P&autoPt=false&splitTeams=false&statType=player&statgroup=1&startDate=2020-03-01&endDate=2021-11-01&players=&filter=&groupBy=season&sort=-1%2C1. 
+7. Splits leaderboards as RHP. FanGraphs. (n.d.). Retrieved December 3, 2021, from https://www.fangraphs.com/leaders/splits-leaderboards?splitArr=96&splitArrPitch=&position=P&autoPt=false&splitTeams=false&statType=player&statgroup=1&startDate=2020-03-01&endDate=2021-11-01&players=&filter=&groupBy=season&sort=-1%2C1. 
+8. Splits leaderboards vs LHP. FanGraphs. (n.d.). Retrieved December 3, 2021, from https://www.fangraphs.com/leaders/splits-leaderboards?splitArr=1&splitArrPitch=&position=B&autoPt=true&splitTeams=false&statType=player&statgroup=1&startDate=2020-07-23&endDate=2021-10-03&players=&filter=&groupBy=game&sort=-1,1
+9. Splits leaderboards vs LHP. FanGraphs. (n.d.). Retrieved December 3, 2021, from https://www.fangraphs.com/leaders/splits-leaderboards?splitArr=2&splitArrPitch=&position=B&autoPt=true&splitTeams=false&statType=player&statgroup=1&startDate=2020-07-23&endDate=2021-10-03&players=&filter=&groupBy=game&sort=-1,1
+10. Wikimedia Foundation. (2021, September 29). Runs created. Wikipedia. Retrieved December 3, 2021, from https://en.wikipedia.org/wiki/Runs_created.
